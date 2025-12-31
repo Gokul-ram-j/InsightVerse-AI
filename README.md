@@ -79,13 +79,6 @@ InsightVerse AI aims to bridge the gap between information overload and effectiv
 
 ---
 
-## ☁️ Cloud & DevOps
-
-- **MinIO** → Object storage service (S3-compatible) running via Docker for secure and scalable file storage  
-- **Git & GitHub** → Source control and collaborative development**Git & GitHub** → Version control and collaboration
-
----
-
 ## 🧩 Programming Languages & Usage
 
 * **Python** → Backend APIs, AI pipelines, RAG, file processing
@@ -243,13 +236,6 @@ app/results/[jobId]/chat/
 ## Backend System Architecture & Execution Flow
 
 ![InsightVerse AI UI](./frontend/public/insightVerse%20AI.png)
-
-Here is a **final, clean, copy-paste-ready setup configuration** for **InsightVerse AI**.
-This is the **last consolidated version** — short, ordered, and clear.
-
-You can place this under **“Setup & Configuration”** in your README.
-
----
 
 # ⚙️ Setup Configuration — InsightVerse AI
 ---
@@ -422,7 +408,7 @@ InsightVerse AI runs **fully locally** with:
 
 * FastAPI backend
 * Next.js frontend
-* MongoDB for metadata
+* MongoDB for storing generated response
 * MinIO for file storage (bucket-based)
 * FAISS for vector search
 * **Mistral LLM via Ollama**
